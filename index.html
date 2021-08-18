@@ -26,11 +26,11 @@
                         </div>
                         <div class="col col-5 d-flex align-items-center justify-content-between">
                             <div class="d-flex align-items-center justify-content-evenly">
-                                <button class="btn btn-light"><i class="fas fa-minus"></i></button>
-                                <input class="form-control text-center" type="number"  id="" value="1">
-                                <button class="btn btn-light"><i class="fas fa-plus"></i></button>
+                                <button id="phone-minus" class="btn btn-light"><i class="fas fa-minus"></i></button>
+                                <input id="phone-count" class="form-control text-center" type="number"  id="" value="1">
+                                <button id="phone-plus" class="btn btn-light"><i class="fas fa-plus"></i></button>
                             </div>
-                            <h5 class="line-height">$1219</h5>
+                            <h5 class="line-height">$<span id="phone-price">1219</span></h5>
                             <img class="img-fluid remove-item" src="images/remove.png" alt="">
                         </div>
                     </div>
@@ -43,11 +43,11 @@
                         </div>
                         <div class="col col-5 d-flex align-items-center justify-content-between">
                             <div class="d-flex align-items-center justify-content-evenly">
-                                <button class="btn btn-light"><i class="fas fa-minus"></i></button>
-                                <input class="form-control text-center" type="number"  id="" value="1">
-                                <button class="btn btn-light"><i class="fas fa-plus"></i></button>
+                                <button id="case-minus" class="btn btn-light"><i class="fas fa-minus"></i></button>
+                                <input id="case-count" class="form-control text-center" type="number"  id="" value="1">
+                                <button id="case-plus" class="btn btn-light"><i class="fas fa-plus"></i></button>
                             </div>
-                            <h5 class="line-height">$59</h5>
+                            <h5 class="line-height">$<span id="case-price">59</span></h5>
                             <img class="img-fluid remove-item" src="images/remove.png" alt="">
                         </div>
                     </div>
@@ -61,19 +61,20 @@
                             <h5>Total:</h5>
                         </div>
                         <div class="col col-4 status">
-                            <h5>$1,278</h5>
-                            <h5>$0</h5>
-                            <h5>$1,278</h5>
+                            <h5>$<span id="sub-total">1,278</span></h5>
+                            <h5>$<span id="tax">0</span></h5>
+                            <h5>$<span id="total">1,278</span></h5>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <button class="btn btn-success btn-lg check-out">Check Out</button>
+                        <button id="reset" class="btn btn-success btn-lg check-out">Check Out</button>
                     </div>
                 </div>
             </div>
         </section> 
     </main>
+    <script src="app.js"></script>
 </body>
 </html>
