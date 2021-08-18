@@ -1,0 +1,35 @@
+.cart {
+    margin: 100px auto;
+    background-color: #F6F5FA;
+    padding: 60px;
+}
+.cart-item {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+.form-control {
+    background-color: #F6F5FA;
+    border: none;
+    width: 65px;
+    border-radius: 10px!important;
+    font-weight: 700;
+    font-size: 20px;
+}
+.remove-item {
+    width: 25px!important;
+}
+.status {
+    text-align: right;
+}
+.check-out {
+    float: right;
+    padding: 10px 30px;
+    font-size: 19px;
+    background-color: #2FBE70;
+    border: none;
+}
+.line-height{
+    margin-top: 10px;
+}
