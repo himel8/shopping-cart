@@ -60,20 +60,20 @@ caseMinusClick.addEventListener('click', function(){
     totalPrice();
 })
 
-const resetBtn = document.getElementById('reset');
+/* const resetBtn = document.getElementById('reset');
 resetBtn.addEventListener('click', function(){
-    const countPhoneID = document.getElementById('phone-count');
+    let countPhoneID = document.getElementById('phone-count');
     countPhoneID.value = '';
-    const countCaseID = document.getElementById('case-count');
+    let countCaseID = document.getElementById('case-count');
     countCaseID.value = '';
-    const phonePriceID = document.getElementById('phone-price');
+    let phonePriceID = document.getElementById('phone-price');
     phonePriceID.innerText = 0;
-    const casePriceID = document.getElementById('case-price');
+    let casePriceID = document.getElementById('case-price');
     casePriceID.innerText = 0;
-    const subTotal = document.getElementById('sub-total');
+    let subTotal = document.getElementById('sub-total');
     subTotal.innerText = 0;
-    const tax = document.getElementById('tax');
+    let tax = document.getElementById('tax');
     tax.innerText = 0;
-    const total = document.getElementById('total');
+    let total = document.getElementById('total');
     total.innerText = 0;
-})
+}) */
